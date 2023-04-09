@@ -6,7 +6,7 @@
 		h1{
 			margin-bottom:30px;
 			align-content: center;
-			top: 30px;
+			top: 60px;
 		}
 		.col {
 			border: 1px	solid black;
@@ -17,8 +17,9 @@
 			font-family: helvetica;
 			color: black;
 			position: relative;
-			margin-right: 20px;
-			margin-bottom: 20px;
+			margin-left: 20px;
+			margin-right: 5px;
+			margin-bottom: 30px;
 
 		}
 
@@ -146,7 +147,7 @@
 		}
 
 		/* mobile devices*/
-		@media ( max-width:767px)  {
+		@media (max-width:767px)  {
 			.col-sm-1, .col-sm-2,.col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-s-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 				float: left;
 				position: relative;
