@@ -1,6 +1,6 @@
 *{
 			box-sizing: border-box;
-			margin: 0;
+			margin: 10px;
 			padding: 0;
 		}
 		h1{
@@ -92,10 +92,10 @@
 				width:74.99%;
 			}
 			.col-lg-10{
-				width:83.33%;
+				width:83%;
 			}
 			.col-lg-11{
-				width:91.66%;
+				width:90%;
 			}
 			.col-lg-12{
 				width:100%;
@@ -135,7 +135,7 @@
 				width:74.99%;
 			}
 			.col-md-10{
-				width:83.33%;
+				width:86.66%;
 			}
 			.col-md-11{
 				width:91.66%;
