@@ -20,10 +20,10 @@ body{
 	text-shadow: 1 px 1px 1px #222;
 	font-size: 1.5em;
 	margin-bottom:0;
+	padding-top: 15px;
 	margin-top: 0;
 	font-weight: bold;
 	line-height: .75;
-	text box-decoration-underline:none;
 }
 
 .navbar-brand a:hover,.navbar-brand a:focus{
@@ -73,3 +73,34 @@ ul#nav-list a:hover{
 		font-size: 1.2em;
 	}
 }
+
+
+
+/* Style the page heading */
+h3 {
+  color: black;
+  font-size: 3rem;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+
+
+/* Add some padding to the container */
+.row {
+  padding: 2rem 0;
+}
+.col {
+			border: 1px	solid black;
+			padding: 30px 10px 10px 10px;
+			background-color: gray;
+			width: auto;
+			height: auto;
+			font-family: helvetica;
+			color: black;
+			position: relative;
+			margin-left: 20px;
+			margin-right: 5px;
+			margin-bottom: 30px;
+
+		}
