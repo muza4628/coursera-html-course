@@ -1,21 +1,21 @@
 body{
 	font-size: 16px;
 	color: black;
-	background-color: ghostwhite;
+	background-color: lightblue;
 	
 
 }
 #header-nav{
 	background-color: dimgray;
 	border-radius: 0;
-	border: 0;
+	border-color: black;
+	border-width: medium;
 	padding-bottom: 20px;
 }
-.navbar-brand{
+#navbar-brand{
 	padding-top: 25px;
 }
 .navbar-brand h1{  /* Restaurant name */
-	font-family: 'Lora', serif;
 	color: black;
 	text-shadow: 1 px 1px 1px #222;
 	font-size: 1.5em;
@@ -23,11 +23,13 @@ body{
 	margin-top: 0;
 	font-weight: bold;
 	line-height: .75;
+	text box-decoration-underline:none;
 }
 
 .navbar-brand a:hover,.navbar-brand a:focus{
-	text-decoration: none;
+	text-decoration: none ! !important;
 }
+
 #nav-list{
 	list-style-type: none;
 	margin: 0;
